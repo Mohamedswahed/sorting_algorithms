@@ -2,8 +2,8 @@
 
 /**
  * swap_int_nums - To Swap two integer numbers.
- * @a: The first integer number.
- * @b: The second integer number.
+ * @x: The first integer number.
+ * @y: The second integer number.
  */
 void swap_int_nums(int *x, int *y)
 {
