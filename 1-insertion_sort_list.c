@@ -2,6 +2,7 @@
 /**
  * swap_lst - function to swap two nodes in the list
  * @x:  adress of the first node
+ * @y:  adress of the next node
  * Return: void
  */
 void swap_lst(listint_t *x, listint_t *y)
