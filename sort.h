@@ -34,5 +34,7 @@ void print_array(const int *array, size_t size);
 /* my function */
 void bubble_sort(int *array, size_t size);
 void swap_int_nums(int *x, int *y);
+void insertion_sort_list(listint_t **list);
+void selection_sort(int *array, size_t size);
 
 #endif /* SORT_H */
