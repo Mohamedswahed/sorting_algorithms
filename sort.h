@@ -35,5 +35,8 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void swap_int_nums(int *x, int *y);
 void insertion_sort_list(listint_t **list);
+int do_part(int *array, size_t size, int first, int last);
+void sort_it(int *array, size_t size, int first, int last);
+void quick_sort(int *array, size_t size);
 
 #endif /* SORT_H */
