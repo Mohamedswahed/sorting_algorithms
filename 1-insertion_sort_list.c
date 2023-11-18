@@ -2,13 +2,10 @@
 /**
  * swap_lst - function to swap two nodes in the list
  * @x:  adress of the first node
- * @y:  adress of the next node
  * Return: void
  */
 void swap_lst(listint_t *x, listint_t *y)
 {
-	if (x == NULL || y == NULL || x == y)
-		return;
 	if (x->prev)
 	{
 		(x->prev)->next = y;
@@ -21,6 +18,7 @@ void swap_lst(listint_t *x, listint_t *y)
 	y->prev = x->prev;
 	x->prev = y;
 	y->next = x;
+
 }
 /**
  * insertion_sort_list -  using the Insertion sort algorithm
@@ -30,8 +28,6 @@ void swap_lst(listint_t *x, listint_t *y)
  */
 void insertion_sort_list(listint_t **list)
 {
-	if (list == NULL || *list == NULL || (*list)->next == NULL)
-		return;
 	listint_t *i, *j;
 
 	if (list == NULL || *list == NULL || (*list)->next == NULL)
