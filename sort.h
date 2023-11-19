@@ -38,5 +38,9 @@ void insertion_sort_list(listint_t **list);
 int do_part(int *array, size_t size, int first, int last);
 void sort_it(int *array, size_t size, int first, int last);
 void quick_sort(int *array, size_t size);
-
+void swap_forward(listint_t **ptr_dl_head,
+		listint_t **ptr_dl_tail, listint_t **ptr_curr_swp);
+void swap_backward(listint_t **ptr_dl_head,
+		listint_t **ptr_dl_tail, listint_t **ptr_curr_swp);
+void cocktail_sort_list(listint_t **list);
 #endif /* SORT_H */
