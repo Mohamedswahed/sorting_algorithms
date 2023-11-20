@@ -1,22 +1,17 @@
 #include "sort.h"
-#include <stdio.h>
+
 /**
- * _swap - swaped 2 values.
- * @array: the array for swap him values.
- * @i: First index
- * @j: Second index
- * Return: Nothing
+ * swap_ints - Swap two integers in an array.
+ * @a: The first integer to swap.
+ * @b: The second integer to swap.
  */
-void _swap(int *array, int i, int j)
+void swap_ints(int *a, int *b)
 {
 	int tmp;
 
-	if (array[i] != array[j])
-	{
-		tmp = array[i];
-		array[i] = array[j];
-		array[j] = tmp;
-	}
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
 }
 
 /**
