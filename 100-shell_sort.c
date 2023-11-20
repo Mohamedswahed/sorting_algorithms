@@ -5,7 +5,7 @@
  * @a: The first integer to swap.
  * @b: The second integer to swap.
  */
-void swap_ints(int *a, int *b)
+void integers_swap(int *a, int *b)
 {
 	int tmp;
 
@@ -34,7 +34,7 @@ void shell_sort(int *array, size_t size)
 	{
 		for (i = h; i < size; i++)
 			for (j = i; j >= h && array[j] < array[j - h]; j -= h)
-				_swap(array, j, j - h);
+				intergers_swap(array, j, j - h);
 		h /= 3;
 		print_array(array, size);
 	}
