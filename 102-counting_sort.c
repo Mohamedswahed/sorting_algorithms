@@ -5,10 +5,11 @@
  * @array: array of integers.
  * @size: size of array.
  *
+ * Return: The maximum number in array.
  */
 int get_maximum(int *array, int size)
 {
-	int x,y;
+	int x, y;
 
 	for (x = array[0], y = 1; y < size; y++)
 	{
