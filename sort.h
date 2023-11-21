@@ -52,4 +52,7 @@ void merge_arr_partion(int *arr_partion, int *bufr,
 void merge_rec(int *arr_partion, int *bufr, size_t first, size_t last);
 void merge_sort(int *array, size_t size);
 
+int DoHorPart(int *array, size_t size, int first, int last);
+void HorSorting(int *array, size_t size, int first, int last);
+void quick_sort_hoare(int *array, size_t size);
 #endif /* SORT_H */
