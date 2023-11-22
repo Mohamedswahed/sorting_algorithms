@@ -21,12 +21,11 @@ int get_maximum(int *array, int size)
 }
 
 /**
- * counting_sort - Sort an array of integers in ascending order
+ * counting_sort -function to count sort an array
  *                 using the counting sort algorithm.
- * @array: An array of integers.
- * @size: The size of the array.
+ * @array: Array of integers.
+ * @size: size of the array.
  *
- * Description: Prints the counting array after setting it up.
  */
 void counting_sort(int *array, size_t size)
 {
